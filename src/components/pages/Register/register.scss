@@ -1,0 +1,41 @@
+.outRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 400px 200px 0;
+  .register {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+input {
+  background-color: black;
+  border-color: rgb(255, 64, 64);
+  border-width: 3px;
+  border-style: solid;
+  color: white;
+  width: 491px;
+  height: 39px;
+  padding: 3px 3px 3px 21px;
+  font: normal normal normal 16px/1.4em poppins-extralight, poppins, sans-serif;
+}
+button {
+  width: 128px;
+  height: 39px;
+  background-color: black;
+  color: rgb(255, 64, 64);
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 64, 64);
+  font: normal normal normal 16px/1.4em poppins-extralight, poppins, sans-serif;
+  cursor: pointer;
+  font-weight: lighter;
+}
+button:hover {
+  background-color: rgb(255, 64, 64);
+  color: white;
+  transition: 0.4s;
+}

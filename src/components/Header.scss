@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.271);
+  position: relative;
+  z-index: 1;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 85px;
+    padding: 0 30px;
+    align-items: center;
+    .header_link{
+      display: flex;
+      gap: 50px;
+      a{
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: poppins-extralight,poppins,sans-serif;
+      }
+      a:hover{
+        color: rgb(219, 142, 0);
+      }
+    }
+  }
+}
